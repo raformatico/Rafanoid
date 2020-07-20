@@ -1,6 +1,6 @@
 # Rafanoid: Curso Godot Completo - Desarrolla tu primer videojuego en Godot Engine 3.2 usando GDScript
 
-![Rafanoid Curso Godot Completo](Thumbnails\CursoGodot.jpg)
+![Rafanoid Curso Godot Completo](Thumbnails/CursoGodot.jpg)
 
 *consulta todos los videotutoriales en la [playlist](https://www.youtube.com/watch?v=1wSwA1cYzIA&list=PLpdhBEtT9SDn2_tc1G8cZHHUhywJxLFU3)*
 
