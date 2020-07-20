@@ -1,0 +1,63 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://title/replay.gd" type="Script" id=1]
+[ext_resource path="res://title/main_title.tscn" type="PackedScene" id=2]
+[ext_resource path="res://title/but_quit.tscn" type="PackedScene" id=3]
+[ext_resource path="res://title/but_replay.tscn" type="PackedScene" id=4]
+
+[node name="replay" type="Node"]
+pause_mode = 2
+script = ExtResource( 1 )
+
+[node name="ColorRect" type="ColorRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color( 0.0431373, 0.0313726, 0.231373, 0.556863 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="title_margin" type="MarginContainer" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 30.0
+margin_top = 150.0
+margin_right = -30.0
+margin_bottom = -100.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="menu" type="VBoxContainer" parent="title_margin"]
+margin_right = 228.0
+margin_bottom = 262.0
+
+[node name="main_title" parent="title_margin/menu" instance=ExtResource( 2 )]
+visible = false
+anchor_right = 0.0
+margin_right = 228.0
+margin_bottom = 67.0
+
+[node name="but_replay" parent="title_margin/menu" instance=ExtResource( 4 )]
+anchor_right = 0.0
+margin_right = 228.0
+
+[node name="but" parent="title_margin/menu/but_replay" index="0"]
+margin_left = 82.0
+margin_right = 146.0
+
+[node name="but_quit" parent="title_margin/menu" instance=ExtResource( 3 )]
+anchor_right = 0.0
+margin_top = 68.0
+margin_right = 228.0
+margin_bottom = 132.0
+
+[node name="but" parent="title_margin/menu/but_quit" index="0"]
+margin_left = 82.0
+margin_right = 146.0
+[connection signal="pressed" from="title_margin/menu/but_replay/but" to="." method="_on_replay_but_pressed"]
+[connection signal="pressed" from="title_margin/menu/but_quit/but" to="." method="_on_quit_but_pressed"]
+
+[editable path="title_margin/menu/but_replay"]
+
+[editable path="title_margin/menu/but_quit"]

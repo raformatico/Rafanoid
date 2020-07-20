@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://environment/background.png" type="Texture" id=1]
+[ext_resource path="res://environment/borders.tscn" type="PackedScene" id=2]
+[ext_resource path="res://environment/stage_blocks.tscn" type="PackedScene" id=3]
+
+[node name="environment" type="Node2D"]
+
+[node name="background" type="TextureRect" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
+texture = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="borders" parent="." instance=ExtResource( 2 )]
+
+[node name="stage_blocks" parent="." instance=ExtResource( 3 )]
