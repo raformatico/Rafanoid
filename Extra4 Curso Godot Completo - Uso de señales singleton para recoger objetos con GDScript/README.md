@@ -1,7 +1,7 @@
 # Extra4 Curso Godot Completo - Uso de señales singleton para recoger objetos con GDScript
 Aprende a generar regalos que tu jugador puede recoger y ser notificado por medio de una señal singleton en Godot Engine 3.2. 
 
-![Extra4 Curso Godot Completo - Uso de señales singleton para recoger objetos con GDScript](..\Thumbnails\extra4.png)
+![Extra4 Curso Godot Completo - Uso de señales singleton para recoger objetos con GDScript](../Thumbnails/extra4.png)
 
 *consulta el videotutorial [aquí](https://www.youtube.com/watch?v=Mo6sbDlk0nQ)*
 

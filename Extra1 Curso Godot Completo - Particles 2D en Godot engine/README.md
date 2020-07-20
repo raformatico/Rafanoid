@@ -1,7 +1,7 @@
 # Extra1 Curso Godot Completo - Particles 2D en Godot engine
  Código del Extra 1 del juego Rafanoid para el motor Godot Engine
 
-![Extra1 Curso Godot Completo - Particles 2D en Godot engine](..\Thumbnails\extra1.png)
+![Extra1 Curso Godot Completo - Particles 2D en Godot engine](../Thumbnails/extra1.png)
 
 *consulta el videotutorial [aquí](https://www.youtube.com/watch?v=sQ_NhtFkv4M)*
 

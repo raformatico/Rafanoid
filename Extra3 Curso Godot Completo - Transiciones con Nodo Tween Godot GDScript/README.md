@@ -1,7 +1,7 @@
 # Extra3 Curso Godot Completo - Transiciones con Nodo Tween Godot GDScript
 Aprende a utilizar el nodo Tween con transiciones entre escenas en Godot Engine 3.2. 
 
-![Extra3 Curso Godot Completo - Transiciones con Nodo Tween Godot GDScript](..\Thumbnails\extra3.png)
+![Extra3 Curso Godot Completo - Transiciones con Nodo Tween Godot GDScript](../Thumbnails/extra3.png)
 
 *consulta el videotutorial [aquí](https://www.youtube.com/watch?v=dbw8pEnJChQ)*
 

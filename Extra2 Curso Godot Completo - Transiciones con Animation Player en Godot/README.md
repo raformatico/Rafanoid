@@ -1,7 +1,7 @@
 # Extra2 Curso Godot Completo - Transiciones con Animation Player en Godot
 Aprende a hacer transiciones de escenas con fade in fade out con Godot Engine 3.2. 
 
-![Extra2 Curso Godot Completo - Transiciones con Animation Player en Godot](..\Thumbnails\extra2.png)
+![Extra2 Curso Godot Completo - Transiciones con Animation Player en Godot](../Thumbnails/extra2.png)
 
 *consulta el videotutorial [aquí](https://www.youtube.com/watch?v=cd3kvIf8AoQ)*
 
