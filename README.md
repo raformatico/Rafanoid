@@ -1,6 +1,6 @@
 # Rafanoid: Curso Godot Completo - Desarrolla tu primer videojuego en Godot Engine 3.2 usando GDScript
 
-![Rafanoid Curso Godot Completo](H:\Documentos\FormacionOnline\Github\rafanoid\Thumbnails\CursoGodot.jpg)
+![Rafanoid Curso Godot Completo](Thumbnails\CursoGodot.jpg)
 
 *consulta todos los videotutoriales en la [playlist](https://www.youtube.com/watch?v=1wSwA1cYzIA&list=PLpdhBEtT9SDn2_tc1G8cZHHUhywJxLFU3)*
 
@@ -46,24 +46,24 @@ En cada carpeta titulada como Extra podrás obtener acceso a avances del curso b
 
 #### Extra1 Curso Godot Completo - Particles 2D en Godot engine
 
-![Extra1 Curso Godot Completo - Particles 2D en Godot engine](H:\Documentos\FormacionOnline\Github\rafanoid\Thumbnails\extra1.png)
+![Extra1 Curso Godot Completo - Particles 2D en Godot engine](Thumbnails\extra1.png)
 
 *consulta el videotutorial [aquí](https://www.youtube.com/watch?v=sQ_NhtFkv4M)*
 
 #### Extra2 Curso Godot Completo - Transiciones con Animation Player en Godot
 
-![Extra2 Curso Godot Completo - Transiciones con Animation Player en Godot](H:\Documentos\FormacionOnline\Github\rafanoid\Thumbnails\extra2.png)
+![Extra2 Curso Godot Completo - Transiciones con Animation Player en Godot](Thumbnails\extra2.png)
 
 *consulta el videotutorial [aquí](https://www.youtube.com/watch?v=cd3kvIf8AoQ)*
 
 #### Extra3 Curso Godot Completo - Transiciones con Nodo Tween Godot GDScript
 
-![Extra3 Curso Godot Completo - Transiciones con Nodo Tween Godot GDScript](H:\Documentos\FormacionOnline\Github\rafanoid\Thumbnails\extra3.png)
+![Extra3 Curso Godot Completo - Transiciones con Nodo Tween Godot GDScript](Thumbnails\extra3.png)
 
 *consulta el videotutorial [aquí](https://www.youtube.com/watch?v=dbw8pEnJChQ)*
 
 #### Extra4 Curso Godot Completo - Uso de señales singleton para recoger objetos con GDScript
 
-![Extra4 Curso Godot Completo - Uso de señales singleton para recoger objetos con GDScript](H:\Documentos\FormacionOnline\Github\rafanoid\Thumbnails\extra4.png)
+![Extra4 Curso Godot Completo - Uso de señales singleton para recoger objetos con GDScript](Thumbnails\extra4.png)
 
 *consulta el videotutorial [aquí](https://www.youtube.com/watch?v=Mo6sbDlk0nQ)*
