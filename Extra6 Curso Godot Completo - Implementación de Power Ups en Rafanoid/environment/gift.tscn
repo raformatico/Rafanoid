@@ -1,0 +1,37 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://environment/gift-blue.png" type="Texture" id=1]
+[ext_resource path="res://environment/gift-key2.png" type="Texture" id=2]
+[ext_resource path="res://environment/gift.gd" type="Script" id=3]
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 1 ), ExtResource( 2 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 8.07698, 8.09152 )
+
+[node name="gift" type="RigidBody2D"]
+collision_layer = 4
+contacts_reported = 1
+contact_monitor = true
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="spr_gift" type="AnimatedSprite" parent="."]
+frames = SubResource( 1 )
+
+[node name="col_gift" type="CollisionShape2D" parent="."]
+shape = SubResource( 2 )
+
+[node name="VisibilityNotifier2D" type="VisibilityNotifier2D" parent="."]
+position = Vector2( 7.15256e-07, -0.170514 )
+scale = Vector2( 0.820959, 0.820959 )
+[connection signal="body_entered" from="." to="." method="_on_gift_body_entered"]
+[connection signal="screen_exited" from="VisibilityNotifier2D" to="." method="_on_VisibilityNotifier2D_screen_exited"]

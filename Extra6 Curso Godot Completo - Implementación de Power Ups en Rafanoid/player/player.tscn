@@ -1,0 +1,39 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://player/nave-g.png" type="Texture" id=1]
+[ext_resource path="res://player/player.gd" type="Script" id=2]
+[ext_resource path="res://assets/audio/gift.ogg" type="AudioStream" id=3]
+[ext_resource path="res://player/nave-xl.png" type="Texture" id=4]
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 1 ), ExtResource( 4 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 32, 10 )
+
+[node name="player" type="KinematicBody2D"]
+collision_mask = 22
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+speed = 8
+
+[node name="spr_player" type="AnimatedSprite" parent="."]
+frames = SubResource( 1 )
+
+[node name="col_player" type="CollisionShape2D" parent="."]
+shape = SubResource( 2 )
+
+[node name="gift_sound" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource( 3 )
+
+[node name="powerup_timer" type="Timer" parent="."]
+wait_time = 5.0
+one_shot = true
+[connection signal="timeout" from="powerup_timer" to="." method="_on_powerup_timer_timeout"]
