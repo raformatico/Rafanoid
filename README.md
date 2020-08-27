@@ -67,3 +67,15 @@ En cada carpeta titulada como Extra podrás obtener acceso a avances del curso b
 ![Extra4 Curso Godot Completo - Uso de señales singleton para recoger objetos con GDScript](Thumbnails/extra4.png)
 
 *consulta el videotutorial [aquí](https://www.youtube.com/watch?v=Mo6sbDlk0nQ)*
+
+#### Extra5 Curso Godot Completo - Uso de collision masks y layers
+
+![Extra5 Curso Godot Completo - Uso de collision masks y layers](Thumbnails/extra5.png)
+
+*consulta el videotutorial [aquí](https://www.youtube.com/watch?v=8FILrmpwWo4)*
+
+#### Extra6 Curso Godot Completo - Implementación de Power Ups en Rafanoid
+
+![Extra6 Curso Godot Completo - Implementación de Power Ups en Rafanoid](Thumbnails/extra6.png)
+
+*consulta el videotutorial [aquí](https://www.youtube.com/watch?v=98j1v8cz2n8)*
